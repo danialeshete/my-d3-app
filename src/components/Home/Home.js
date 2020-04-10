@@ -15,7 +15,7 @@ export class Home extends React.Component {
                 <body>
                     <Container>
                         <Row>
-                            <Col>1 of 1</Col>
+                            <Col class="btn-primary">1 of 1</Col>
                         </Row>
                     </Container>
 
