@@ -1,28 +1,22 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import App from '../../App';
-import {Bootstrap, Grid, Container, Row, Col} from 'react-bootstrap';
+
+import {NavBar} from './NavBar';
+import Banner from './Banner';
 
 export class Home extends React.Component {
 
     render() {
+
         return (
             <div>
-                <head>
-                    
-                </head>
+                
+                
+                <NavBar/>
 
-                <body>
-                    <Container>
-                        <Row>
-                            <Col class="btn-primary">1 of 1</Col>
-                        </Row>
-                    </Container>
-
-                </body>
-
+                <Banner/>
             </div>
-        )
+        );
     }
 }
 
